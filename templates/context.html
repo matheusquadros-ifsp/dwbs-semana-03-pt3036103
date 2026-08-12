@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block page_content %}
+<h1>Olá, {{ name }}</h1>
+<hr>
+<h1>Seu navegador é: {{ user_agent }}</h1>
+<h1>O IP do computador remoto é: {{ remote_ip }}</h1>
+<h1>O host da aplicação é: {{ host }}</h1>
+{% endblock %}
